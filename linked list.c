@@ -25,7 +25,6 @@ int main() {
 	one -> next = two;
 	two -> next = three;
 	three -> next = NULL;
-	printf("%d",'value');
 	head = one;
 	printLinkedlist(head);
 	
